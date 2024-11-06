@@ -1,0 +1,523 @@
+@charset "utf-8";
+
+
+/* 주주총회 안내 */
+.shareholders{text-align:center;}
+.shareholders .subtitle{position:relative;padding:38px 0;font-size:24px;font-weight:600;line-height:38px;}
+.shareholders .hd{margin-top:70px;margin-bottom:64px;font-size:22px;}
+.shareholders .detail_info{text-align:left;}
+.shareholders .detail_info > ol > li{font-size:22px;line-height:42px;}
+.shareholders .detail_info > ol > li > span{font-weight:600;}
+.shareholders .detail_info > ol > li .box2{padding:27px 50px;}
+.shareholders .detail_info > ol > li .box2 .box_inner{padding:51px 40px;background-color:#f5f5f5;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li{font-size:18px;font-weight:600;line-height:34px;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:20px 36px;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li > ol > li{font-weight:400;}
+.shareholders .detail_info > ol > li .box_inner2{padding:30px 80px;}
+.shareholders .detail_info > ol > li .box_inner2 p{font-size:0;}
+.shareholders .detail_info > ol > li .box_inner2 p + p{margin-top:0;}
+.shareholders .detail_info > ol > li .box_inner2 p span{display:inline-block;font-size:18px;line-height:39px;vertical-align:top;}
+.shareholders .detail_info > ol > li .box_inner2 p .txt_hd{width:80px;}
+.shareholders .detail_info > ol > li .box_inner2 p .txt_tail{width:calc(100% - 80px);}
+.shareholders .outro{position:relative;margin-top:70px;font-size:22px;}
+.shareholders .outro div{font-weight:600;}
+.shareholders .outro .cop{margin:33px 0 16px;}
+.shareholders .outro .name{color:black;}
+
+@media (max-width:1000px) {
+    .shareholders{padding-bottom:70px;}
+    .shareholders .subtitle{padding:30px 0;font-size:20px;line-height:30px;}
+    .shareholders .hd{margin-top:46px;margin-bottom:42px;font-size:18px;}
+    .shareholders .detail_info > ol > li{font-size:18px;line-height:25px;}
+    .shareholders .detail_info > ol > li .box2{padding:8px 0;}
+    .shareholders .detail_info > ol > li .box2 .box_inner{padding:15px 40px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li{font-size:18px;line-height:30px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:0 30px;}
+    .shareholders .detail_info > ol > li .box_inner2{padding:0 30px;}
+    .shareholders .detail_info > ol > li .box_inner2 p span{font-size:18px;line-height:30px;}
+    .shareholders .detail_info > ol > li .box_inner2 p .txt_hd{width:74px;}
+    .shareholders .detail_info > ol > li .box_inner2 p .txt_tail{width:calc(100% - 74px);}
+    .shareholders .outro div{font-size:18px;}
+    .shareholders .outro .cop{margin:20px 0 12px;}
+}
+
+@media (max-width:640px) {
+    .shareholders .subtitle{font-size:18px;}
+    .shareholders .subtitle br:last-child{display:none;}
+    .shareholders .detail_info > ol > li .box2 .box_inner{padding:15px 20px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:0 15px;}
+}
+
+
+
+/* 기업소개 리뉴얼 231120 김진솔*/
+.yc_corp #sub_banner .sub_visual .visual_img{background-image:url(../img_new/corporation/bg.jpg);}
+
+.yc_about #content{padding-bottom: 0;}
+.yc_about .matchbox{padding-top: 100px;}
+.yc_about .matchbox:not(.matchbox1){padding-bottom: 160px;}
+.yc_about .matchbox .full_img img{width:100%;max-width:unset;height:100%;max-height:unset;object-fit:cover;object-position:center;}
+.yc_about .matchbox1{text-align: center;}
+.yc_about .matchbox1 .full_img{height: 420px;}
+.yc_about .matchbox1 .slogan_en{font-size: 52px;font-weight: 700;color: #008e43;margin-bottom: 12px;}
+.yc_about .matchbox1 .slogan_kr{font-size: 38px;font-weight: 600;margin-bottom: 41px;}
+.yc_about .matchbox1 .slogan_text{margin-bottom: 40px;}
+.yc_about .matchbox1 .slogan_text p{font-size: 20px;line-height: 32px;word-break: keep-all;}
+.yc_about .matchbox1 .slogan_text p + p{margin-top: 32px;}
+.yc_about .matchbox2{text-align: center;}
+.yc_about .matchbox2 .title_box{margin-bottom: 91px;}
+.yc_about .matchbox2 .subject{font-size: 32px;font-weight: 700;}
+.yc_about .matchbox2 .title{font-size: 50px;font-weight: 500;color: #a1a1a1;line-height: 64px;margin: 27px 0;}
+.yc_about .matchbox2 .title span{font-weight: 700;color: #008e43;}
+.yc_about .matchbox2 .text{font-size: 20px;line-height: 30px;word-break: keep-all;}
+.yc_about .matchbox2 .text + .text{margin-top: 30px;}
+.yc_about .matchbox2 .full_img{margin-bottom: 117px;height: 400px;background: rgba(0, 0, 0, 0.4) url(/data/yuhancare/inc/img_new/corporation/about/tab2_img.jpg) no-repeat center / cover;color: white;display: flex;justify-content: center;align-items: center;flex-direction: column;background-attachment: fixed;background-blend-mode: multiply;}
+.yc_about .matchbox2 .full_img .img_text{font-size: 38px;font-weight: 700;line-height: 52px;margin-top: 26px;}
+.yc_about .matchbox2 .circlebox{margin: 60px 0;font-size: 0;}
+.yc_about .matchbox2 .circlebox ul{display: inline-flex;justify-content: center;position:relative;}
+.yc_about .matchbox2 .circlebox ul:before{content: "";display: block;position: absolute;width: 90%;height: 4px;top: calc(50% - 2px);left: 10%;background-color: #a8a8a8;}
+.yc_about .matchbox2 .circlebox li{text-align: center;width: 240px;height: 240px;border: 4px solid #008e43;border-radius: 50%;background-color: white;position:relative;font-size: 24px;line-height: 30px;padding-top: 96px;}
+.yc_about .matchbox2 .circlebox li:nth-child(2n){border-color: #a8a8a8;}
+.yc_about .matchbox2 .circlebox li + li{margin-left: 10px;}
+.yc_about .matchbox2 .circlebox li span{font-weight: 600;display: block;}
+.yc_about .matchbox3{color: #3e3e3e;position:relative;padding-top: 130px;}
+.yc_about .matchbox3 .inner_wrap{padding: 0 28px;}
+.yc_about .matchbox3 .speech{font-size: 38px;font-weight: 700;line-height: 52px;margin-bottom: 63px;}
+.yc_about .matchbox3 .speech span{color: #008e43;}
+.yc_about .matchbox3 .speech .mobr{display: none;}
+.yc_about .matchbox3 .ceo_box{text-align: right; padding-right: 20px;margin-top:60px;}
+.yc_about .matchbox3 .ceo_box .imgbox{margin-bottom: 53px;}
+.yc_about .matchbox3 .ceo_box .ceo_nm{font-size: 16px;font-weight: 500;font-family: NewOrigin Gothic; line-height: 30px;}
+.yc_about .matchbox3 .ceo_left{width:48%; display: inline-block; margin-right:20px;}
+.yc_about .matchbox3 .ceo_right{width:48%; display: inline-block; margin-left:20px;}
+.yc_about .matchbox3 .ceo_box .ceo_nm span{font-size: 28px;font-weight: 700;margin-left: 10px;}
+.yc_about .matchbox3 .text{font-size: 20px;line-height: 30px;word-break: keep-all;}
+.yc_about .matchbox3 .text + .text{margin-top: 30px;}
+.yc_about .matchbox3 .inner_wrap_m{display:none;}
+.yc_about .matchbox3 .full_img{margin-bottom:60px;}
+.yc_about .matchbox3 .full_img_m{margin-bottom:40px; width:100%;}
+.yc_about .matchbox3 .full_img_m .img { width:100%;}
+
+
+@media (max-width:1200px) {
+    .yc_about .matchbox{padding-top: 80px;}
+    .yc_about .matchbox:not(.matchbox1){padding-bottom: 80px;}
+    .yc_about .matchbox1 .full_img{height: 300px;}
+    .yc_about .matchbox1 .slogan_en{font-size: 46px;}
+    .yc_about .matchbox1 .slogan_kr{font-size: 34px;}
+    .yc_about .matchbox1 .slogan_text p{font-size: 18px;line-height: 28px;margin-bottom: 25px;}
+    .yc_about .matchbox1 .slogan_text p + p{margin-top: 28px;}
+
+    .yc_about .matchbox2 .title_box{margin-bottom: 80px;}
+    .yc_about .matchbox2 .subject{font-size: 30px;}
+    .yc_about .matchbox2 .title{font-size: 46px;line-height: 60px;}
+    .yc_about .matchbox2 .full_img{margin-bottom: 105px;}
+    .yc_about .matchbox2 .full_img .img_text{font-size: 34px;line-height: 46px;}
+
+    .yc_about .matchbox3{padding-top: 110px;}
+    .yc_about .matchbox3 .inner_wrap_m .text{}
+    .yc_about .matchbox3 .speech{font-size: 32px;font-weight: 700;line-height: 46px;margin-bottom: 63px;}
+    .yc_about .matchbox3 .ceo_left{width:47%; display: inline-block; margin-right:20px;}
+    .yc_about .matchbox3 .ceo_right{width:47%; display: inline-block; margin-left:20px;}
+
+}
+@media (max-width:1000px) {
+    .yc_about .matchbox{padding-top: 70px;}
+    .yc_about .matchbox1 .full_img{height: 220px;}
+    .yc_about .matchbox1 .slogan_en{font-size: 46px;margin-bottom: 10px;}
+    .yc_about .matchbox1 .slogan_kr{font-size: 34px;}
+    .yc_about .matchbox2 .title_box{margin-bottom: 65px;}
+    .yc_about .matchbox2 .subject{font-size: 28px;}
+    .yc_about .matchbox2 .title{font-size: 34px;line-height: 50px;}
+    .yc_about .matchbox2 .full_img{margin-bottom: 76px;height: 300px;}
+    .yc_about .matchbox2 .full_img .img_text{font-size: 32px;line-height: 42px;margin-top: 20px;}
+    .yc_about .matchbox2 .conbox{padding: 0 3vw;}
+    .yc_about .matchbox2 .circlebox{margin: 45px 0;}
+    .yc_about .matchbox2 .circlebox ul{flex-wrap: wrap;width: 450px;}
+    .yc_about .matchbox2 .circlebox ul:before{background-color: transparent;width: 350px;height: 350px;border-radius: 50%;box-sizing: border-box;border: 4px solid #a8a8a8;top: calc(50% - 175px);left: calc(50% - 175px);}
+    .yc_about .matchbox2 .circlebox ul li{width: 200px;height: 200px;padding-top: 75px;font-size: 20px;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(2n){margin-left: 50px;border-color: #008e43;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(n+3){margin-top: 50px;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(2), .yc_about .matchbox2 .circlebox ul li:nth-child(3){border-color: #a8a8a8;}
+    .yc_about .matchbox2 .circlebox ul li + li{margin-left: 0;}
+    .yc_about .matchbox3 .speech{font-size: 32px;line-height: 44px;margin-bottom: 50px;}
+    .yc_about .matchbox3 .ceo_box .imgbox{margin-bottom: 40px;}
+    .yc_about .matchbox3 .text{font-size: 18px;line-height: 28px;}
+    .yc_about .matchbox3 .text + .text{margin-top: 28px;}
+    .yc_about .matchbox3 .full_img{margin-bottom: 50px;}
+    .yc_about .matchbox3 .inner_wrap{display:none;}
+    .yc_about .matchbox3 .inner_wrap_m{display:block;}
+    .yc_about .matchbox3 .inner_wrap_m .mo{display:none;}
+    .yc_about .matchbox3 .inner_wrap_m{padding: 0 28px;}
+    .yc_about .matchbox3 .inner_wrap_m br{display:none;}
+    .yc_about .matchbox3 .inner_wrap_m .mobr{display:block;}
+}
+@media (max-width:800px) {
+    .yc_about .matchbox2 .conbox .text br{display: none;}
+    .yc_about .matchbox3 .ceo_box{position: static;width: 100%;margin-bottom: 40px;}
+    .yc_about .matchbox3 .ceo_box .imgbox{margin-bottom: 30px;}
+    .yc_about .matchbox3 .ceo_box .ceo_nm{font-size: 14px;}
+    .yc_about .matchbox3 .ceo_box .ceo_nm span{font-size: 26px;margin-left: 5px;}
+    .yc_about .matchbox3 .text{width: 100%;}
+    .yc_about .matchbox3 .full_img_m img{width:100%;}
+    .yc_about .matchbox3 .inner_wrap_m br{display:block;}
+    .yc_about .matchbox3 .inner_wrap_m .mobr{display:none;}
+
+}
+@media (max-width:640px) {
+    .yc_about .matchbox1 .full_img{height: 150px;}
+    .yc_about .matchbox1 .slogan_en{font-size: 34px;margin-bottom: 9px;}
+    .yc_about .matchbox1 .slogan_kr{font-size: 30px;margin-bottom: 47px;}
+    .yc_about .matchbox1 .slogan_text{padding: 0 4vw;}
+    .yc_about .matchbox1 .slogan_text p{font-size: 16px;line-height: 26px;}
+    .yc_about .matchbox1 .slogan_text p + p{margin-top: 26px;}
+    .yc_about .matchbox2 .title_box{margin-bottom: 55px;}
+    .yc_about .matchbox2 .subject{font-size: 24px;}
+    .yc_about .matchbox2 .title{font-size: 22px;color: #a1a1a1;line-height: 40px;margin: 24px 0;}
+    .yc_about .matchbox2 .title span{color: #008e43;font-size: 30px;}
+    .yc_about .matchbox2 .text{font-size: 16px;line-height: 26px;}
+    .yc_about .matchbox2 .text + .text{margin-top: 28px;}
+    .yc_about .matchbox2 .full_img{margin-bottom: 59px;height: 230px;}
+    .yc_about .matchbox2 .full_img .img_text{font-size: 30px;line-height: 40px;margin-top: 17px;}
+    .yc_about .matchbox2 .circlebox ul{width: 330px;}
+    .yc_about .matchbox2 .circlebox ul:before{width: 280px;height: 280px;top: calc(50% - 140px);left: calc(50% - 140px);}
+    .yc_about .matchbox2 .circlebox ul li{width: 150px;height: 150px;padding-top: 40px;font-size: 18px;line-height: 24px;padding-top: 52px;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(2n){margin-left: 30px;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(n+3){margin-top: 20px;}
+    .yc_about .matchbox3 .speech{font-size: 22px;line-height: 30px;margin-bottom: 40px;}
+    .yc_about .matchbox3 .ceo_box .imgbox{padding: 0 45px;}
+    .yc_about .matchbox3 .ceo_box .ceo_nm{font-size: 12px;}
+    .yc_about .matchbox3 .ceo_box .ceo_nm span{font-size: 22px;}
+    .yc_about .matchbox3 .text{font-size: 16px;line-height: 26px;}
+    .yc_about .matchbox3 .text + .text{margin-top: 26px;}
+    .yc_about .matchbox3 .inner_wrap_m .mo{display:block;}
+    .yc_about .matchbox3 .inner_wrap_m .pc{display:none;}
+}
+
+
+/* 설립자 유일한 리뉴얼 231108 김진솔*/
+.yc_newilhan #content{padding-bottom:0;}
+.yc_newilhan #sub_banner .sub_visual .visual_img{background-image:url(../img_new/corporation/newilhan/bg.jpg);}
+.yc_newilhan .theme_box{margin-bottom:120px;color:white;}
+.yc_newilhan .theme_box.black{color:#181818;}
+.yc_newilhan .theme_title{font-size:52px;font-weight:700;text-align:center;}
+.yc_newilhan .theme_title.tt1{margin-bottom:20px;letter-spacing:0.02em;}
+.yc_newilhan .theme_title.tt2{margin-bottom:75px;}
+.yc_newilhan .theme_text{font-size:30px;line-height:44px;text-align:center;}
+.yc_newilhan .matchbox{padding-top:213px;}
+.yc_newilhan .matchbox .match_title{margin-bottom:43px;color:#008e43;font-size:38px;font-weight:700;line-height:44px;}
+.yc_newilhan .matchbox .match_subtitle{font-size:30px;line-height:44px;}
+.yc_newilhan .matchbox .match_subtitle.type-history{margin-bottom:33px;}
+.yc_newilhan .matchbox .text{font-size:20px;font-weight:300;line-height:32px;}
+.yc_newilhan .matchbox .text.vertical_type p + p{margin-top:32px;}
+.yc_newilhan .matchbox .text.horizental_type{display:flex;align-items:flex-start;}
+.yc_newilhan .matchbox .text.horizental_type p + p{margin-left:130px;}
+.yc_newilhan .matchbox .anno{margin-top:17px;font-size:16px;font-weight:300;letter-spacing:0;}
+.yc_newilhan .matchbox .flexbox{display:flex;align-items:flex-end;position:relative;margin-bottom:145px;}
+.yc_newilhan .matchbox .flexbox .match_subtitle{margin-bottom:50px;}
+.yc_newilhan .matchbox .full_img img{width:100%;max-width:unset;height:100%;max-height:unset;object-fit:cover;object-position:center;}
+.yc_newilhan .matchbox .history_film{position:relative;}
+.yc_newilhan .matchbox .history_film .film_inner{overflow:auto;height:100%;cursor:grab;}
+.yc_newilhan .matchbox .history_film .film_inner::-webkit-scrollbar{display:none;}
+.yc_newilhan .matchbox .history_film .film_inner.grab{cursor:grabbing;}
+.yc_newilhan .matchbox .history_film .film_inner img{position:relative;max-width:unset;height: 100%;}
+.yc_newilhan .matchbox1{background:url(../img_new/corporation/newilhan/tab1_bg.jpg) no-repeat center top / 1920px;}
+.yc_newilhan .matchbox1 .flex-left{margin-right:100px;}
+.yc_newilhan .matchbox1 .flex-right{padding-bottom:36px;}
+.yc_newilhan .matchbox2{padding-bottom:120px;background:url(../img_new/corporation/newilhan/tab2_bg.jpg) no-repeat center top / cover;color:white;}
+.yc_newilhan .matchbox2 .full_img{position:relative;height:479px;margin-bottom:206px;}
+.yc_newilhan .matchbox2 .full_img:after{display:block;position:absolute;bottom:-183px;left:calc(50% + 141px);width:470px;height:324px;background:url(../img_new/corporation/newilhan/tab2_img2.png) no-repeat center / contain;content:"";}
+.yc_newilhan .matchbox2 .match_subtitle{margin-bottom:83px;}
+.yc_newilhan .matchbox2 .text{color:white;}
+.yc_newilhan .matchbox2 .photobox{margin-top:159px;}
+.yc_newilhan .matchbox2 .photobox .photo:nth-child(2){margin-top:-150px;margin-left:425px;}
+.yc_newilhan .matchbox2 .anno{color:#c1c1c1;}
+.yc_newilhan .matchbox3 .full_img{position:relative;height:1008px;}
+.yc_newilhan .matchbox3 .flexbox{margin-top:-294px;}
+.yc_newilhan .matchbox3 .flex-left{margin-right:75px;text-align: center;}
+.yc_newilhan .matchbox3 .history_film{height:calc(100vh - 70px);max-height: 988px;}
+.yc_newilhan .matchbox4 .sookju{margin-bottom:25px;}
+.yc_newilhan .matchbox4 .match_subtitle{margin-bottom:58px;}
+.yc_newilhan .matchbox4 .text.horizental_type p + p{margin-left:90px;}
+.yc_newilhan .matchbox4 .bgbox{margin-top:120px;padding-top:120px;padding-bottom:130px;background-color:#f3f3f3;}
+.yc_newilhan .matchbox4 .bgbox .bigtext{margin-bottom:51px;font-size:38px;font-weight:700;line-height:52px;text-align:center;}
+.yc_newilhan .matchbox4 .ad .anno{padding-left:23px;}
+.yc_newilhan .matchbox4 .flexbox{align-items:flex-start;margin-top:55px;}
+.yc_newilhan .matchbox4 .flex-left{margin-right:167px;}
+.yc_newilhan .matchbox4 .posterbox{display:flex;justify-content:space-between;}
+.yc_newilhan .matchbox4 .posterbox .left{width:520px;}
+.yc_newilhan .matchbox4 .posterbox .right{width:640px;}
+.yc_newilhan .matchbox5 .full_img{position:relative;height:1000px;}
+.yc_newilhan .matchbox5 .flexbox{margin-top:-377px;}
+.yc_newilhan .matchbox5 .flex-left{margin-right:78px;text-align: center;}
+.yc_newilhan .matchbox5 .history_film{height:calc(100vh - 70px);max-height: 841px;}
+.yc_newilhan .matchbox6 .full_img{position:relative;height:740px;}
+.yc_newilhan .matchbox6 .lastbox{padding-top:117px;background-color:#121212;}
+.yc_newilhan .matchbox6 .lastbox .last_inner{position:relative;width:1000px;margin:0 auto;}
+.yc_newilhan .matchbox6 .lastbox .last_inner:before{display:block;position:absolute;top:0;right:0;width:473px;height:682px;background:url(../img_new/corporation/newilhan/tab6_img2.jpg) no-repeat center top / contain;content:"";}
+.yc_newilhan .matchbox6 .lastbox .text{color:white;}
+.yc_newilhan .matchbox6 .lastbox .photo{position:relative;margin-top:126px;}
+.yc_newilhan .matchbox6 .lastbox .photo .imgbox:first-child{margin-bottom:59px;}
+.yc_newilhan .matchbox6 .lastbox .bigtext{position:relative;margin:133px 0;color:white;font-size:28px;line-height:42px;text-align:center;}
+.yc_newilhan .matchbox6 .lastbox .lastwill{position:relative;padding-top:800px;}
+.yc_newilhan .matchbox6 .lastbox .lastwill .will{position:absolute;top:0;}
+.yc_newilhan .matchbox6 .lastbox .lastwill .will.fixed{position:fixed;}
+.yc_newilhan .matchbox6 .lastbox .lastwill .will_cover{position:relative;padding-top:473px;padding-bottom:261px;}
+.yc_newilhan .matchbox6 .lastbox .lastwill .will_cover:before{display:block;position:absolute;top:0;left:calc(50% - 50vw);width:100vw;height:100%;background:linear-gradient(to top, #121212 65%, rgba(0,0,0,0.7), transparent);content:"";}
+.yc_newilhan .matchbox6 .lastbox .lastwill .will_cover .imgbox{position:relative;}
+.yc_newilhan .matchbox6 .lastbox .lastwill .text{position:relative;margin-bottom:600px;text-align:center;}
+.yc_newilhan .matchbox6 .lastbox .conlogo{text-align:center;}
+
+@media (max-width:1200px) {
+    .yc_newilhan .theme_box{margin-bottom:120px;}
+    .yc_newilhan .theme_title{font-size:42px;}
+    .yc_newilhan .theme_title.tt1{margin-bottom:15px;}
+    .yc_newilhan .theme_title.tt2{margin-bottom:50px;}
+    .yc_newilhan .theme_text{font-size:24px;line-height:36px;}
+    .yc_newilhan .matchbox{padding-top:180px;}
+    .yc_newilhan .matchbox .match_title{margin-bottom:36px;font-size:30px;line-height:38px;}
+    .yc_newilhan .matchbox .match_subtitle{font-size:24px;line-height:36px;}
+    .yc_newilhan .matchbox .match_subtitle.type-history{margin-bottom:24px;}
+    .yc_newilhan .matchbox .text{font-size:16px;line-height:26px;}
+    .yc_newilhan .matchbox .text.vertical_type p + p{margin-top:26px;}
+    .yc_newilhan .matchbox .text.horizental_type p + p{margin-left:76px;}
+    .yc_newilhan .matchbox .anno{margin-top:10px;font-size:13px;}
+    .yc_newilhan .matchbox .flexbox .match_subtitle{margin-bottom:30px;}
+    .yc_newilhan .matchbox1{background-size:1500px;}
+    .yc_newilhan .matchbox1 .flex-left{width:440px;margin-right:60px;}
+    .yc_newilhan .matchbox1 .flex-right{padding-bottom:26px;}
+    .yc_newilhan .matchbox1 .history_film{height:600px;}
+    .yc_newilhan .matchbox2 .full_img{height:420px;margin-bottom:170px;}
+    .yc_newilhan .matchbox2 .match_subtitle{margin-bottom:40px;}
+    .yc_newilhan .matchbox2 .photobox{margin-top:120px;}
+    .yc_newilhan .matchbox2 .photobox .photo{width:600px;}
+    .yc_newilhan .matchbox2 .photobox .photo:nth-child(2){margin-top:-100px;margin-left:400px;}
+    .yc_newilhan .matchbox3 .full_img{height:700px;}
+    .yc_newilhan .matchbox3 .flexbox{margin-top:-260px;}
+    .yc_newilhan .matchbox3 .flex-left{width:440px;margin-right:50px;}
+    .yc_newilhan .matchbox3 .history_film{height:780px;}
+    .yc_newilhan .matchbox4 .match_subtitle{margin-bottom:40px;}
+    .yc_newilhan .matchbox4 .bgbox{margin-top:100px;padding-top:100px;padding-bottom:110px;}
+    .yc_newilhan .matchbox4 .bgbox .bigtext{margin-bottom:40px;font-size:30px;line-height:44px;}
+    .yc_newilhan .matchbox4 .flexbox{margin-top:46px;}
+    .yc_newilhan .matchbox4 .flex-left{margin-right:140px;}
+    .yc_newilhan .matchbox4 .posterbox .left{width:420px;}
+    .yc_newilhan .matchbox4 .posterbox .right{width:540px;}
+    .yc_newilhan .matchbox5 .full_img{height:700px;}
+    .yc_newilhan .matchbox5 .flexbox{margin-top:-300px;}
+    .yc_newilhan .matchbox5 .flex-left{width:420px;margin-right:60px;}
+    .yc_newilhan .matchbox5 .history_film{height:700px;}
+    .yc_newilhan .matchbox6 .full_img{height:600px;}
+    .yc_newilhan .matchbox6 .lastbox{padding-top:100px;}
+    .yc_newilhan .matchbox6 .lastbox .last_inner:before{width:400px;}
+    .yc_newilhan .matchbox6 .lastbox .photo{margin-top:100px;}
+    .yc_newilhan .matchbox6 .lastbox .photo .imgbox:first-child{margin-bottom:40px;}
+    .yc_newilhan .matchbox6 .lastbox .bigtext{margin:100px 0;font-size:22px;line-height:36px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover{padding-bottom:200px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .text{margin-bottom:500px;}
+    .yc_newilhan .matchbox6 .lastbox .conlogo{height:64px;}
+}
+@media (max-width:1000px) {
+    .yc_newilhan .theme_box{margin-bottom:100px;}
+    .yc_newilhan .theme_title{font-size:36px;}
+    .yc_newilhan .theme_title.tt1{margin-bottom:10px;}
+    .yc_newilhan .theme_title.tt2{margin-bottom:40px;}
+    .yc_newilhan .theme_text{font-size:20px;line-height:30px;}
+    .yc_newilhan .matchbox{padding-top:120px;}
+    .yc_newilhan .matchbox .match_title{margin-bottom:32px;font-size:26px;line-height:32px;}
+    .yc_newilhan .matchbox .match_title br{display:none;}
+    .yc_newilhan .matchbox .match_subtitle{font-size:20px;line-height:30px;word-break:keep-all;}
+    .yc_newilhan .matchbox .match_subtitle br{display:none;}
+    .yc_newilhan .matchbox .match_subtitle.type-history{margin-bottom:20px;}
+    .yc_newilhan .matchbox .match_subtitle.type-history br{display:block;}
+    .yc_newilhan .matchbox .text{font-size:14px;line-height:24px;text-align:justify;}
+    .yc_newilhan .matchbox .text br{display:none;}
+    .yc_newilhan .matchbox .text.vertical_type p + p{margin-top:24px;}
+    .yc_newilhan .matchbox .text.horizental_type{display:block;}
+    .yc_newilhan .matchbox .text.horizental_type p + p{margin-top:24px;margin-left:0;}
+    .yc_newilhan .matchbox .anno{font-size:12px;}
+    .yc_newilhan .matchbox .flexbox{margin-bottom:80px;}
+    .yc_newilhan .matchbox .flex-right{width:60vw;}
+    .yc_newilhan .matchbox1{background-size:1000px;}
+    .yc_newilhan .matchbox1 .theme_box{margin-bottom:166px;}
+    .yc_newilhan .matchbox1 .flex-left{width:30vw;margin-right:30px;}
+    .yc_newilhan .matchbox1 .flex-right{padding-bottom:20px;}
+    .yc_newilhan .matchbox2 .full_img{height:40vw;margin-bottom:120px;}
+    .yc_newilhan .matchbox2 .full_img:after{bottom:-18vw;left:calc(50% + 17vw);width:40vw;height:28vw;}
+    .yc_newilhan .matchbox2 .photobox{margin-top:120px;}
+    .yc_newilhan .matchbox2 .photobox .photo{width:55vw;}
+    .yc_newilhan .matchbox2 .photobox .photo:nth-child(2){margin-top:-14vw;margin-left:39vw;}
+    .yc_newilhan .matchbox3 .full_img{height:40vw;}
+    .yc_newilhan .matchbox3 .flexbox{margin-top:20px;}
+    .yc_newilhan .matchbox3 .flex-left{width:30vw;margin-right:30px;}
+    .yc_newilhan .matchbox3 .history_film{height:720px;}
+    .yc_newilhan .matchbox4 .match_subtitle{margin-bottom:30px;}
+    .yc_newilhan .matchbox4 .bgbox{margin-top:60px;padding-top:60px;padding-bottom:80px;}
+    .yc_newilhan .matchbox4 .bgbox .bigtext{margin-bottom:30px;font-size:20px;line-height:30px;}
+    .yc_newilhan .matchbox4 .flexbox{display:block;margin-top:40px;}
+    .yc_newilhan .matchbox4 .flex-left{margin-right:0;}
+    .yc_newilhan .matchbox4 .flex-right{width:100%;}
+    .yc_newilhan .matchbox4 .posterbox .left{width:43vw;}
+    .yc_newilhan .matchbox4 .posterbox .right{width:49vw;}
+    .yc_newilhan .matchbox5 .full_img{height:40vw;}
+    .yc_newilhan .matchbox5 .flexbox{margin-top:20px;}
+    .yc_newilhan .matchbox5 .flex-left{width:30vw;margin-right:30px;}
+    .yc_newilhan .matchbox6 .full_img{height:40vw;}
+    .yc_newilhan .matchbox6 .lastbox{padding-top:60px;}
+    .yc_newilhan .matchbox6 .lastbox .text{width:70vw;}
+    .yc_newilhan .matchbox6 .lastbox .last_inner{width:92vw;}
+    .yc_newilhan .matchbox6 .lastbox .last_inner:before{width:20vw;}
+    .yc_newilhan .matchbox6 .lastbox .photo{margin-top:60px;}
+    .yc_newilhan .matchbox6 .lastbox .photo .imgbox:first-child{margin-bottom:20px;}
+    .yc_newilhan .matchbox6 .lastbox .bigtext{margin:60px 0;font-size:20px;line-height:32px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will.fixed{width:92vw;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover{padding-bottom:200px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover .text{width:100%;margin-bottom:380px;padding:0 2vw;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover .text br{display:block;}
+    .yc_newilhan .matchbox6 .lastbox .conlogo{height:50px;}
+}
+@media (max-width:640px) {
+    .yc_newilhan .theme_box{margin-bottom:80px;}
+    .yc_newilhan .theme_title{font-size:28px;}
+    .yc_newilhan .theme_title.tt2{margin-bottom:30px;}
+    .yc_newilhan .theme_text{font-size:16px;line-height:26px;}
+    .yc_newilhan .matchbox{padding-top:80px;}
+    .yc_newilhan .matchbox .match_title{margin-bottom:30px;font-size:22px;line-height:30px;}
+    .yc_newilhan .matchbox .match_subtitle{font-size:16px;line-height:26px;}
+    .yc_newilhan .matchbox .anno{text-align:center;}
+    .yc_newilhan .matchbox .flexbox{flex-direction:column;align-items:flex-start;margin-bottom:80px;}
+    .yc_newilhan .matchbox .flex-left{margin-bottom:30px;}
+    .yc_newilhan .matchbox .flex-right{width:100%;}
+    .yc_newilhan .matchbox1 .theme_box{margin-bottom:96px;}
+    .yc_newilhan .matchbox1 .flex-left{width:100%;margin-right:0;}
+    .yc_newilhan .matchbox1 .history_film{height:500px;}
+    .yc_newilhan .matchbox2 .full_img{margin-bottom:60px;}
+    .yc_newilhan .matchbox2 .photobox{margin-top:60px;}
+    .yc_newilhan .matchbox2 .photobox .photo{width:100%;}
+    .yc_newilhan .matchbox2 .photobox .photo:nth-child(2){margin-top:20px;margin-left:0;}
+    .yc_newilhan .matchbox3 .flexbox{margin-top:20px;}
+    .yc_newilhan .matchbox3 .flex-left{width:100%;margin-right:0;}
+    .yc_newilhan .matchbox3 .history_film{height:650px;}
+    .yc_newilhan .matchbox4 .bgbox .bigtext{font-size:16px;line-height:26px;}
+    .yc_newilhan .matchbox4 .posterbox{display:block;text-align: center;}
+    .yc_newilhan .matchbox4 .posterbox .left{width:100%;margin-bottom:20px;}
+    .yc_newilhan .matchbox4 .posterbox .right{width:100%;}
+    .yc_newilhan .matchbox5 .flex-left{width:100%;margin-right:0;}
+    .yc_newilhan .matchbox5 .history_film{height:680px;}
+    .yc_newilhan .matchbox6 .lastbox .text{position:relative;width:100%;}
+    .yc_newilhan .matchbox6 .lastbox .last_inner:before{top:-60px;right:-3vw;width:100vw;opacity:0.1;}
+    .yc_newilhan .matchbox6 .lastbox .bigtext{margin:60px 0;font-size:16px;line-height:26px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill{padding-top:50vw;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover{padding-bottom:100px;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover .text{margin-bottom:60vw;padding:0 2vw;}
+    .yc_newilhan .matchbox6 .lastbox .lastwill .will_cover .text p{word-break:keep-all;}
+    .yc_newilhan .matchbox6 .lastbox .conlogo{height:35px;}
+}
+/* 설립자 유일한 리뉴얼 끝 */
+
+/* 연혁 리뉴얼 240205 김진솔 */
+.yc_history #content{padding-top: 150px;}
+.yc_history .bgcover{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-repeat: no-repeat;background-size: cover;background-position: center;filter: blur(4px);pointer-events: none;background-color: rgba(0, 0, 0, 0.5);background-blend-mode: multiply;transform: scale(1.02);}
+.yc_history .title{font-size: 52px;line-height: 74px;font-weight: 700;color: #008e43;text-align: center;margin-bottom: 33px;position:relative;}
+.yc_history .subtitle{font-size: 26px;font-weight: 600;text-align: center;margin-bottom: 180px;position:relative;}
+.yc_history .cont_body{width: 1000px;margin: 0 auto;position:relative;}
+.yc_history .cont_body:before{content: "";display: block;position: absolute;width: 1px;height: 100%;background-color: white;top: 0;left: 50%;}
+.yc_history .conbox{position:relative;}
+.yc_history .conbox:nth-child(2n){padding-left: calc(50% + 40px);}
+.yc_history .conbox + .conbox{margin-top: 200px;}
+.yc_history .conbox .itembox{width: 460px;position:relative;color: white;}
+.yc_history .conbox .itembox .item_year{margin: 15px 0;font-size: 40px;font-weight: 700;}
+.yc_history .conbox .itembox .item_sub{font-size: 22px;font-weight: 500;margin-bottom: 10px;}
+.yc_history .conbox .itembox .item_text{font-size: 18px;font-weight: 300;line-height: 30px;}
+.yc_history .conbox .itembox .item_text p{word-break: keep-all;}
+.yc_history .conbox .itembox .item_text p + p{margin-top: 30px;}
+@media (max-width:1000px) {
+    .yc_history #content{padding-top: 100px;padding-bottom: 100px;}
+    .yc_history .title{font-size: 42px;line-height: 60px;margin-bottom: 23px;}
+    .yc_history .subtitle{font-size: 22px;margin-bottom: 100px;}
+    .yc_history .cont_body{width: 92vw;}
+    .yc_history .cont_body:before{display: none;}
+    .yc_history .conbox:nth-child(2n){padding-left: 0;}
+    .yc_history .conbox .itembox{width: 100%;}
+    .yc_history .conbox .itembox .item_year{font-size: 34px;}
+}
+@media (max-width:640px) {
+    .yc_history #content{padding-top: 70px;}
+    .yc_history .title{font-size: 32px;line-height: 44px;}
+    .yc_history .subtitle{font-size: 18px;margin-bottom: 90px;}
+    .yc_history .conbox .itembox .item_year{font-size: 28px;}
+    .yc_history .conbox .itembox .item_sub{font-size: 18px;}
+    .yc_history .conbox .itembox .item_text{font-size: 16px;line-height: 26px;}
+    .yc_history .conbox .itembox .item_text p + p{margin-top: 26px;}
+}
+/* 연혁 리뉴얼 끝 */
+
+/* 개인정보 처리방짐 리뉴얼 240206 김진솔 */
+.yc_policy .cont_body{width: 1000px;margin: 0 auto;padding-top: 100px;}
+.privacy_box .first_context{margin-bottom: 50px;border-bottom: 1px solid #181818;padding-bottom: 50px;}
+.privacy_box .first_context p{font-size: 18px;line-height: 38px;word-break: keep-all;font-weight: 600;}
+.privacy_box .first_context p + p{margin-top: 38px;}
+.privacy_box .context + .context{margin-top: 50px;}
+.privacy_box .context .text{font-size: 18px;font-weight: 600;margin-bottom: 10px;}
+.privacy_box .context * + ol, .privacy_box .context * + ul, .privacy_box .context * + p{margin-top: 8px;}
+.privacy_box .context li, .privacy_box .context p{position:relative;font-size: 16px;font-weight: 300;line-height: 24px;word-break: keep-all;}
+.privacy_box .context p span{font-weight: 500;}
+.privacy_box .context li + li{margin-top: 8px;}
+.privacy_box .context ol > li{padding-left: 20px;}
+.privacy_box .context ol > li > i{position: absolute;top: 0;left: 0;}
+.privacy_box .context ul > li{padding-left: 20px;}
+.privacy_box .context ul > li:before{content: "";position: absolute;left: 4px;width: 6px;top: 11px;height: 1px;background-color: #888;display: block;}
+.privacy_box .context .table_box{width: 800px;margin: 20px auto 0;padding-bottom: 20px;}
+.privacy_box .context .table{width: 100%;}
+.privacy_box .context .table th, .privacy_box .context .table td{padding: 10px 20px;}
+.privacy_box .context .table th{text-align: center;background-color: #e6f5ed;border-top: 2px solid #181818;border-bottom: 1px solid #ccc;font-weight: 600;}
+.privacy_box .context .table td{border-bottom: 1px solid #ccc;border-left: 1px solid #ccc;}
+.privacy_box .context .table td:first-child{border-left: none;}
+.privacy_box .context .table.type2 td{text-align: center;}
+@media (max-width:1000px) {
+    .privacy_box .cont_body{width: 92vw;padding-top: 50px;}
+    .privacy_box .first_context{margin-bottom: 40px;padding-bottom: 40px;}
+    .privacy_box .context + .context{margin-top: 40px;}
+    .privacy_box .context .table_box{width: 100%;}
+    .privacy_box .context .table_box.scroll_type{overflow-x: auto;}
+    .privacy_box .context .table_box.scroll_type .table{min-width: 800px;}
+}
+@media (max-width:640px) {
+    .privacy_box .first_context{margin-bottom: 30px;padding-bottom: 30px;}
+    .privacy_box .first_context p{font-size: 16px;line-height: 30px;}
+    .privacy_box .first_context p + p{margin-top: 30px;}
+    .privacy_box .context + .context{margin-top: 30px;}
+    .privacy_box .context .text{font-size: 16px;}
+    .privacy_box .context li, .privacy_box .context p{font-size: 14px;line-height: 20px;}
+    .privacy_box .context ol > li{padding-left: 14px;}
+    .privacy_box .context ul > li{padding-left: 14px;}
+    .privacy_box .context ul > li:before{left: 2px;width: 5px;top: 9px;}
+}
+/* 개인정보 처리방짐 리뉴얼 끝 */
+
+/* 이메일 수집거부 리뉴얼 240206 김진솔 */
+.yc_policy .imgbox{text-align: center;margin-bottom: 50px;}
+.yc_policy .caution{border-radius: 30px;background-color: #f8f8f8;padding: 100px 150px;}
+.yc_policy .caution .cau_title{font-size: 24px;line-height: 38px;font-weight: 600;word-break: keep-all;margin-bottom: 50px;}
+.yc_policy .caution .cau_text{font-weight: 500;font-size: 18px;margin-bottom: 10px;}
+.yc_policy .caution p{font-size: 16px;font-weight: 300;line-height: 30px;word-break: keep-all;}
+.yc_policy .caution p + p{margin-top: 20px;}
+.yc_policy .caution ol{margin-top: 30px;}
+.yc_policy .caution ol > li{padding-left: 20px;position:relative;font-size: 16px;font-weight: 300;line-height: 24px;word-break: keep-all;}
+.yc_policy .caution ol > li + li{margin-top: 8px;}
+.yc_policy .caution ol > li > i{position: absolute;top: 0;left: 0;}
+@media (max-width:1000px) {
+    .yc_policy .caution{border-radius: 20px;padding: 80px 8vw;}
+    .yc_policy .caution .cau_title{font-size: 20px;line-height: 30px;}
+}
+@media (max-width:640px) {
+    .yc_policy .imgbox{height: 200px;}
+    .yc_policy .caution{border-radius: 20px;padding: 50px 6vw;}
+    .yc_policy .caution .cau_title{margin-bottom: 40px;}
+    .yc_policy .caution .cau_text{font-size: 16px;}
+    .yc_policy .caution p{font-size: 14px;line-height: 20px;}
+    .yc_policy .caution p + p{margin-top: 12px;}
+    .yc_policy .caution ol{margin-top: 20px;}
+    .yc_policy .caution ol > li{padding-left: 14px;font-size: 14px;line-height: 20px;}
+}
+/* 이메일 수집거부 리뉴얼 끝 */

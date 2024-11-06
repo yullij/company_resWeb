@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.youtube .board_wrap .title_slide .slide_item{padding-bottom:100px;}
+@media (max-width:1000px) {
+    .youtube .board_wrap .title_slide .slide_item{padding-bottom:39px;}
+}
+
+.yc_media #sub_banner .sub_visual .visual_img{background-image:url(../img_new/media/bg.jpg);}
+
+.yc_media.instagram .link_list{display:flex;justify-content:center;align-items:flex-start;line-height:1;text-align:center;}
+.yc_media.instagram .link_list li{width:180px;margin:0 30px;}
+.yc_media.instagram .link_list a{color:#121212;}
+.yc_media.instagram .link_list .channel_img{margin-bottom:28px;}
+.yc_media.instagram .link_list .channel_nm{margin-bottom:16px;font-size:24px;font-weight:500;}
+.yc_media.instagram .link_list .channel_link{color:#acacac;font-size:18px;}
+.yc_media.instagram .link_list .channel_link:after{display:inline-block;width:6px;height:18px;margin-left:10px;background:url(../img_new/common/arrow_right_grey.svg) no-repeat center / contain;vertical-align:top;content:"";}
+@media (max-width:1000px) {
+    .yc_media.instagram .link_list{width: 500px;flex-wrap: wrap;margin: 0 auto;}
+    .yc_media.instagram .link_list li{margin:0 20px;}
+    .yc_media.instagram .link_list li:nth-child(n+3){margin-top: 40px;}
+    .yc_media.instagram .link_list .channel_img{margin-bottom:20px;}
+    .yc_media.instagram .link_list .channel_nm{margin-bottom:10px;font-size:20px;}
+    .yc_media.instagram .link_list .channel_link{font-size:16px;}
+}
+@media (max-width:640px) {
+    .yc_media.instagram .link_list{flex-direction:column;align-items:center;width: 100%;}
+    .yc_media.instagram .link_list li{margin:0;}
+    .yc_media.instagram .link_list li:nth-child(n+2){margin-top:40px;}
+    .yc_media.instagram .link_list .channel_img{margin-bottom:20px;}
+    .yc_media.instagram .link_list .channel_nm{margin-bottom:10px;font-size:20px;}
+    .yc_media.instagram .link_list .channel_link{font-size:16px;}
+}

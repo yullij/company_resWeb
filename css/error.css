@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* error */
+.error{width:100%; min-height:100vh; background:url('/data/yuhancare/inc/img_new/common/404_bg.jpg') no-repeat center top / cover; text-align:center; color:#3e3e3e;}
+.error img{width:100%;}
+.error .contentBox{width:1000px; background:#fff; padding:120px 0; box-sizing:border-box; border-radius:16px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%);}
+.error .logo{width:256px; margin:0 auto 45px;}
+.error h2{font-size:36px;font-weight:700; margin-bottom:36px;}
+.error h2 span{color:#138768;}
+.error p{font-size:18px; line-height:30px; font-weight:300; margin-bottom:45px;}
+.error .btnWrap{font-size:0;}
+.error .btnWrap a{width:180px; font-size:18px; font-weight:600; color:#fff; display:inline-block; line-height:50px; margin:0 10px;}
+.error .btnWrap a.btn_back{background:#4d4d4d;}
+.error .btnWrap a.btn_main{background:#138768;}
+
+@media (max-width:1000px){
+	/* error */
+  .error{background:url('/data/yuhancare/inc/img_new/common/m-404_bg.jpg') no-repeat center top / cover;}
+  .error .contentBox{width:92vw;height: 80vw; padding:10vw 0; border-radius:4vw;}
+  .error .logo{width:35.777vw; margin:0 auto 6.666vw;}
+  .error h2{font-size:4vw; line-height:6vw; margin-bottom:4vw;}
+  .error p{font-size:3vw; line-height:5vw; margin-bottom:10vw;}
+  .error .btnWrap a{width:50vw; font-size:3vw; display:block; line-height:8vw; margin:0 auto;}
+  .error .btnWrap a.btn_back{margin-bottom: 3vw;}
+}
+
+
+/* common */
+.policy{width:100%; color:#3e3e3e;}
+.policy .contentBox{width:1000px; margin:0 auto; padding-top:160px; box-sizing:border-box;}
+.policy h1{font-size:56px; line-height:60px; font-weight:600; text-align:center; margin-bottom:80px;}
+.policy .pc{display:block;}
+.policy .mo{display:none;}
+.policy table.pc{display:table;}
+.policy table.mo{display:none;}
+
+/* 개인정보 처리방침 */
+.personal .announcement{font-size:18px; line-height:38px; font-weight:600; letter-spacing:-1px; border-bottom:1px solid #3e3e3e; padding-bottom:42px; margin-bottom:42px; box-sizing:border-box;}
+.personal .detail{font-size:15px; line-height:33px; font-weight:200; letter-spacing:-1px;}
+.personal .detail div{margin-bottom:36px;}
+.personal .detail strong{font-size:18px; font-weight:600; display:block;}
+.personal .detail table{width:780px; margin:35px auto 30px;}
+.personal .detail table{border:1px solid #000;}
+.personal .detail table th,.personal .detail table td{border:2px solid #727272;}
+.personal .detail table th{font-size:18px; line-height:44px; font-weight:600; background:#f2f2f2;}
+.personal .detail table td{font-size:15px; line-height:30px; font-weight:200; padding:22px 0 22px 12px; box-sizing:border-box; vertical-align:middle;}
+.personal .detail table.contactInfo td{padding:6px 0; text-align:center;}
+.personal .detail table.center{width:652px;}
+.personal .detail table.center tr td:nth-child(1){text-align:center;}
+.personal .detail table.center tr td:nth-child(2){padding-left:40px;}
+
+/* 이메일 무단 수집 거부 */
+.email .icon{width:192px; margin:0 auto 60px;}
+.email .announcementWrap{width:100%; border-radius:36px; background:#f8f8f8; padding:70px 145px; box-sizing:border-box; margin-bottom:164px;}
+.email .announcement{font-size:24px; line-height:38px; font-weight:600; letter-spacing:-1px; margin-bottom:58px;}
+.email .detail{font-size:18px; line-height:26px; font-weight:200; letter-spacing:-1px;}
+.email .detail strong{display:block; font-weight:600; line-height:32px;}
+
+@media (max-width:1000px){
+	/* common */
+  .policy img{width:100%;}
+  .policy .contentBox{width:91.111vw; padding-top:32vw;}
+  .policy h1{font-size:8vw; line-height:9.333vw; margin-bottom:10vw;}
+  .policy .pc{display:none;}
+  .policy .mo{display:block;}
+  .policy table.pc{display:none;}
+  .policy table.mo{display:table;}
+  .policy .table.mo{display:block;}
+
+  /* 개인정보 처리방침 */
+  .personal .announcement{font-size:3.333vw; line-height:5.777vw; padding-bottom:12.888vw; margin-bottom:5vw;}
+  .personal .detail{font-size:3.333vw; line-height:5.777vw;}
+  .personal .detail div{margin-bottom:8.888vw;}
+  .personal .detail strong{font-size:4vw;}
+  .personal .detail table{width:100%; margin:0 auto 4vw;}
+  .personal .detail table th,.personal .detail table td{border:0.444vw solid #727272;}
+  .personal .detail table th{font-size:4vw; line-height:10vw;}
+  .personal .detail table td{font-size:3.333vw; line-height:6.222vw; padding:4vw 0 4vw 3.333vw;}
+  .personal .detail table.contactInfo td{padding:2.666vw 0;}
+  .personal .detail table.center{width:100%;}
+  .personal .table.mo{margin-top:6.222vw;}
+
+  /* 이메일 무단 수집 거부 */
+  .email .icon{width:36.666vw; margin:0 auto 7.555vw;}
+  .email .announcementWrap{width:91.111vw; border-radius:3.555vw; padding:8.222vw 2.666vw; margin-bottom:15.555vw;}
+  .email .announcement{font-size:3.8vw; line-height:6.222vw; margin-bottom:6.666vw;}
+  .email .detail{font-size:3.333vw; line-height:5.777vw;}
+  .email .detail strong{line-height:6.222vw;}
+}
