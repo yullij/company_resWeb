@@ -51,7 +51,7 @@
 
 
 /* 기업소개 리뉴얼 231120 김진솔*/
-.yc_corp #sub_banner .sub_visual .visual_img{background-image:url(../img_new/corporation/bg.jpg);}
+.yc_corp #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg1.png);}
 
 .yc_about #content{padding-bottom: 0;}
 .yc_about .matchbox{padding-top: 100px;}
@@ -59,7 +59,7 @@
 .yc_about .matchbox .full_img img{width:100%;max-width:unset;height:100%;max-height:unset;object-fit:cover;object-position:center;}
 .yc_about .matchbox1{text-align: center;}
 .yc_about .matchbox1 .full_img{height: 420px;}
-.yc_about .matchbox1 .slogan_en{font-size: 52px;font-weight: 700;color: #008e43;margin-bottom: 12px;}
+.yc_about .matchbox1 .slogan_en{font-size: 52px;font-weight: 700;color: #2f1eb3;margin-bottom: 12px;}
 .yc_about .matchbox1 .slogan_kr{font-size: 38px;font-weight: 600;margin-bottom: 41px;}
 .yc_about .matchbox1 .slogan_text{margin-bottom: 40px;}
 .yc_about .matchbox1 .slogan_text p{font-size: 20px;line-height: 32px;word-break: keep-all;}
@@ -68,22 +68,22 @@
 .yc_about .matchbox2 .title_box{margin-bottom: 91px;}
 .yc_about .matchbox2 .subject{font-size: 32px;font-weight: 700;}
 .yc_about .matchbox2 .title{font-size: 50px;font-weight: 500;color: #a1a1a1;line-height: 64px;margin: 27px 0;}
-.yc_about .matchbox2 .title span{font-weight: 700;color: #008e43;}
+.yc_about .matchbox2 .title span{font-weight: 700;color: #2f1eb3;}
 .yc_about .matchbox2 .text{font-size: 20px;line-height: 30px;word-break: keep-all;}
 .yc_about .matchbox2 .text + .text{margin-top: 30px;}
-.yc_about .matchbox2 .full_img{margin-bottom: 117px;height: 400px;background: rgba(0, 0, 0, 0.4) url(/data/yuhancare/inc/img_new/corporation/about/tab2_img.jpg) no-repeat center / cover;color: white;display: flex;justify-content: center;align-items: center;flex-direction: column;background-attachment: fixed;background-blend-mode: multiply;}
+.yc_about .matchbox2 .full_img{margin-bottom: 117px;height: 400px;background: rgba(0, 0, 0, 0.4) url(/img/bg5.png) no-repeat center / cover;color: white;display: flex;justify-content: center;align-items: center;flex-direction: column;background-attachment: fixed;background-blend-mode: multiply;}
 .yc_about .matchbox2 .full_img .img_text{font-size: 38px;font-weight: 700;line-height: 52px;margin-top: 26px;}
 .yc_about .matchbox2 .circlebox{margin: 60px 0;font-size: 0;}
 .yc_about .matchbox2 .circlebox ul{display: inline-flex;justify-content: center;position:relative;}
 .yc_about .matchbox2 .circlebox ul:before{content: "";display: block;position: absolute;width: 90%;height: 4px;top: calc(50% - 2px);left: 10%;background-color: #a8a8a8;}
-.yc_about .matchbox2 .circlebox li{text-align: center;width: 240px;height: 240px;border: 4px solid #008e43;border-radius: 50%;background-color: white;position:relative;font-size: 24px;line-height: 30px;padding-top: 96px;}
+.yc_about .matchbox2 .circlebox li{text-align: center;width: 240px;height: 240px;border: 4px solid #2f1eb3;border-radius: 50%;background-color: white;position:relative;font-size: 24px;line-height: 30px;padding-top: 96px;}
 .yc_about .matchbox2 .circlebox li:nth-child(2n){border-color: #a8a8a8;}
 .yc_about .matchbox2 .circlebox li + li{margin-left: 10px;}
 .yc_about .matchbox2 .circlebox li span{font-weight: 600;display: block;}
 .yc_about .matchbox3{color: #3e3e3e;position:relative;padding-top: 130px;}
 .yc_about .matchbox3 .inner_wrap{padding: 0 28px;}
 .yc_about .matchbox3 .speech{font-size: 38px;font-weight: 700;line-height: 52px;margin-bottom: 63px;}
-.yc_about .matchbox3 .speech span{color: #008e43;}
+.yc_about .matchbox3 .speech span{color: #2f1eb3;}
 .yc_about .matchbox3 .speech .mobr{display: none;}
 .yc_about .matchbox3 .ceo_box{text-align: right; padding-right: 20px;margin-top:60px;}
 .yc_about .matchbox3 .ceo_box .imgbox{margin-bottom: 53px;}
@@ -136,7 +136,7 @@
     .yc_about .matchbox2 .circlebox ul{flex-wrap: wrap;width: 450px;}
     .yc_about .matchbox2 .circlebox ul:before{background-color: transparent;width: 350px;height: 350px;border-radius: 50%;box-sizing: border-box;border: 4px solid #a8a8a8;top: calc(50% - 175px);left: calc(50% - 175px);}
     .yc_about .matchbox2 .circlebox ul li{width: 200px;height: 200px;padding-top: 75px;font-size: 20px;}
-    .yc_about .matchbox2 .circlebox ul li:nth-child(2n){margin-left: 50px;border-color: #008e43;}
+    .yc_about .matchbox2 .circlebox ul li:nth-child(2n){margin-left: 50px;border-color: #2f1eb3;}
     .yc_about .matchbox2 .circlebox ul li:nth-child(n+3){margin-top: 50px;}
     .yc_about .matchbox2 .circlebox ul li:nth-child(2), .yc_about .matchbox2 .circlebox ul li:nth-child(3){border-color: #a8a8a8;}
     .yc_about .matchbox2 .circlebox ul li + li{margin-left: 0;}
@@ -174,7 +174,7 @@
     .yc_about .matchbox2 .title_box{margin-bottom: 55px;}
     .yc_about .matchbox2 .subject{font-size: 24px;}
     .yc_about .matchbox2 .title{font-size: 22px;color: #a1a1a1;line-height: 40px;margin: 24px 0;}
-    .yc_about .matchbox2 .title span{color: #008e43;font-size: 30px;}
+    .yc_about .matchbox2 .title span{color: #2f1eb3;font-size: 30px;}
     .yc_about .matchbox2 .text{font-size: 16px;line-height: 26px;}
     .yc_about .matchbox2 .text + .text{margin-top: 28px;}
     .yc_about .matchbox2 .full_img{margin-bottom: 59px;height: 230px;}
@@ -205,7 +205,7 @@
 .yc_newilhan .theme_title.tt2{margin-bottom:75px;}
 .yc_newilhan .theme_text{font-size:30px;line-height:44px;text-align:center;}
 .yc_newilhan .matchbox{padding-top:213px;}
-.yc_newilhan .matchbox .match_title{margin-bottom:43px;color:#008e43;font-size:38px;font-weight:700;line-height:44px;}
+.yc_newilhan .matchbox .match_title{margin-bottom:43px;color:#2f1eb3;font-size:38px;font-weight:700;line-height:44px;}
 .yc_newilhan .matchbox .match_subtitle{font-size:30px;line-height:44px;}
 .yc_newilhan .matchbox .match_subtitle.type-history{margin-bottom:33px;}
 .yc_newilhan .matchbox .text{font-size:20px;font-weight:300;line-height:32px;}
@@ -418,7 +418,7 @@
 /* 연혁 리뉴얼 240205 김진솔 */
 .yc_history #content{padding-top: 150px;}
 .yc_history .bgcover{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-repeat: no-repeat;background-size: cover;background-position: center;filter: blur(4px);pointer-events: none;background-color: rgba(0, 0, 0, 0.5);background-blend-mode: multiply;transform: scale(1.02);}
-.yc_history .title{font-size: 52px;line-height: 74px;font-weight: 700;color: #008e43;text-align: center;margin-bottom: 33px;position:relative;}
+.yc_history .title{font-size: 52px;line-height: 74px;font-weight: 700;color: #2f1eb3;text-align: center;margin-bottom: 33px;position:relative;}
 .yc_history .subtitle{font-size: 26px;font-weight: 600;text-align: center;margin-bottom: 180px;position:relative;}
 .yc_history .cont_body{width: 1000px;margin: 0 auto;position:relative;}
 .yc_history .cont_body:before{content: "";display: block;position: absolute;width: 1px;height: 100%;background-color: white;top: 0;left: 50%;}
