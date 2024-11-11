@@ -2,7 +2,7 @@
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block;}
 audio,canvas,progress,video{display:inline-block;}
 article,aside,audio,blockquote,body,canvas,caption,dd,details,div,dl,dt,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,iframe,legend,li,main,menu,nav,ol,p,pre,section,summary,table,tbody,td,template,textarea,tfoot,th,thead,tr,ul,video{margin:0;padding:0;border:0;font-size:inherit;font-family:inherit;box-sizing:border-box;word-break:break-all;font-family: Pretendard;font-weight: 400;}
-a,em,span{display:inline-block;margin:0;padding:0;box-sizing:border-box;}
+a,em,span{display:inline-block;margin:0;padding:0;box-sizing:border-box; }
 a{text-decoration: none;color: #888;}
 b,strong{font-weight:600;}
 address,cite,dfn,em,i{font-style:normal;}
@@ -31,7 +31,7 @@ caption{overflow:hidden;position:relative;left:0;top:0;width:1px;height:1px;back
 legend{overflow:hidden;position:absolute;width:1px;height:1px;background:0 0;font-size:0;color:transparent;line-height:0;}
 fieldset{border:none;min-width:0;}
 hr{overflow:hidden;position:absolute;height:0;width:0;}
-:after,:before{display:none;content:'';}
+/* :after,:before{display:none;content:'';} */
 .clearfix{display:block;}
 .clearfix:after{content:"";display:table;clear:both;}
 .clear{clear:both;}

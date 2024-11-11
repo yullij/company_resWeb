@@ -1,10 +1,15 @@
 @charset "utf-8";
 
-/** 고객지원 리뉴얼 231120 김진솔 **/
-.yc_contact #sub_banner .sub_visual .visual_img{background-image:url(../img_new/contact/bg1.jpg);}
+/* 고객지원 */
+.yc_notice #sub_banner .sub_visual .visual_img{background-image: url(/img/sub-bg4.png);
+
+}
+
+/** 견적문의 리뉴얼 231120 김진솔 **/
+.yc_contactus #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg3\ \(2\).png);}
 
 /* 오시는 길 */
-.yc_location #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg1.png);}
+.yc_location #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg4\(4\).jpg);}
 .yc_location .cont_head{margin-bottom: 138px;}
 .yc_location .con_inner{width: 1200px;margin: 0 auto;}
 .yc_location .location_nm{font-size: 26px;font-weight: 600;margin-bottom: 38px;}
@@ -64,8 +69,8 @@
 .yc_contactus .doc_content .privacy_agree .fake_chk .label label{width: 24px;height: 24px;background-color: #f8f8f8;border-radius: 50%;vertical-align: middle;margin-right: 10px;}
 .yc_contactus .doc_content .privacy_agree .fake_chk button{font-size: 18px;font-weight: 500;}
 .yc_contactus .doc_content .privacy_agree .fake_chk button span{text-decoration: underline;text-underline-position: under;}
-.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label{background-color: #00843e;color: white;}
-.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label label{background: white url(../img_new/common/chk_green.svg) no-repeat center / 14px;}
+.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label{background-color: #;color: white;}
+.yc_contactus .doc_content .privacy_agree #privacy:checked + .fake_chk .label label{background: white url(../img/check-line.svg) no-repeat center / 14px;}
 .yc_contactus .doc_content .privacy_agree .privacy_popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);z-index:100;display: none;}
 .yc_contactus .doc_content .privacy_agree .privacy_popup.active{display: block;}
 .yc_contactus .doc_content .privacy_agree .privacy_popup .pop_inner{width: 1000px;position: absolute;top: 100px;left: 50%;transform: translateX(-50%);}

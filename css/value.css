@@ -9,16 +9,16 @@
 .yc_brand .brand_box:nth-child(n+5){margin-top:60px;}
 .yc_brand .brand_box button{position:relative;width:100%;height:300px;border:1px solid #c9c9c9;border-radius:10px;box-sizing:border-box;}
 .yc_brand .brand_box button:after{display:block;visibility:hidden;position:absolute;top:-1px;left:-1px;width:calc(100% + 2px);height:calc(100% + 2px);border-radius:10px;background-repeat:no-repeat;background-position:center;background-size:cover;content:"";opacity:0;}
-.yc_brand .brand_box:nth-child(1) button:after{background-image:url(../img/hz1.png);}
-.yc_brand .brand_box:nth-child(2) button:after{background-image:url(../img/hz1.png);}
-.yc_brand .brand_box:nth-child(3) button:after{background-image:url(../img_new/value/brand/brand_img3.jpg);}
-.yc_brand .brand_box:nth-child(4) button:after{background-image:url(../img_new/value/brand/brand_img4.jpg);}
-.yc_brand .brand_box:nth-child(5) button:after{background-image:url(../img_new/value/brand/brand_img5.jpg);}
-.yc_brand .brand_box:nth-child(6) button:after{background-image:url(../img_new/value/brand/brand_img6.jpg);}
-.yc_brand .brand_box:nth-child(7) button:after{background-image:url(../img_new/value/brand/brand_img7.jpg);}
-.yc_brand .brand_box:nth-child(8) button:after{background-image:url(../img_new/value/brand/brand_img8.jpg);}
+/* .yc_brand .brand_box:nth-child(1) button:after{background-image:url(../img/hz1.png);}
+.yc_brand .brand_box:nth-child(2) button:after{background-image:url(../img/hz2.png);}
+.yc_brand .brand_box:nth-child(3) button:after{background-image:url(../img/hz3.png);}
+.yc_brand .brand_box:nth-child(4) button:after{background-image:url(../img/hz4.png);}
+.yc_brand .brand_box:nth-child(5) button:after{background-image:url(../img/hz5.png);}
+.yc_brand .brand_box:nth-child(6) button:after{background-image:url(../img/hz6.png);}
+.yc_brand .brand_box:nth-child(7) button:after{background-image:url(../img/hz7.png);}
+.yc_brand .brand_box:nth-child(8) button:after{background-image:url(../img/hz8.png);}
 .yc_brand .brand_box button:hover img{display:block;}
-.yc_brand .brand_box button:hover:after{visibility:visible;transition:200ms ease-in-out;opacity:1;}
+.yc_brand .brand_box button:hover:after{visibility:visible;transition:200ms ease-in-out;opacity:1;} */
 .yc_brand .brand_box .brand_nm{margin-top:30px;font-size:26px;font-weight:600;}
 
 .brand_layer_popup{display:none;position:fixed;top:0;left:0;z-index:200;width:100%;height:100%;background-color:rgba(42, 42, 42, 0.8);}
@@ -110,7 +110,7 @@
 
 /* rnd 리뉴얼 240201 김진솔 */
 @keyframes gageCharge {to{width:0px;}}
-.yc_rnd #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg1.png);} /* about 페이지 인증서 이미지 변경 */
+.yc_rnd #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg4\(4\).jpg);} /* about 페이지 인증서 이미지 변경 */
 .yc_rnd .to_detail{width:300px;height:60px;margin-top:44px;color:white;font-size:20px;font-weight:600;}
 .yc_rnd .tab_match{width:1000px;margin:0 auto;}
 .yc_rnd .matchbox{padding-top:145px;}

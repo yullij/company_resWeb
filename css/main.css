@@ -165,7 +165,7 @@
     .main .sec02 .linkbox{margin-bottom: 80px;}
     .main .sec02 .linkbox a{font-size: 22px;}
     .main .sec02 .linkbox a:after{width: 8px;height: 22px;}
-    .main .sec02 .main_banner a{border-radius: 0;justify-content: flex-end;padding-bottom: 85px;background-position: center bottom;height: 520px;}
+    .main .sec02 .main_banner a{border-radius: 0;justify-content: flex-end;padding-bottom: 200px;background-position: center bottom;height: 520px;}
     .main .sec02 .banner_name{font-size: 38px;line-height: 48px;}
 }
 @media (max-width:640px) {
@@ -301,7 +301,7 @@
     .main .sec04 .link_list .explain{font-size: 16px;line-height: 24px;}
 }
 
-.main .sec05{overflow: hidden;position:relative; margin-top: 100px;}
+.main .sec05{overflow: hidden;position:relative;}
 .main .sec05 .bg{background: rgba(0, 0, 0, 0.4) url(../img/shopping2.png) no-repeat center / cover;height: 500px;background-blend-mode: multiply;transform-origin: center;transition: 600ms ease-in-out;}
 .main .sec05 a{display: flex;width: 100%;height: 100%;color: white;text-align: center;justify-content: center;align-items: center;flex-direction: column;position:absolute;top: 0;left: 0; }
 .main .sec05 .title{font-size: 42px;font-weight: 700;margin-bottom: 27px;}

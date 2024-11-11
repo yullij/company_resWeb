@@ -5,7 +5,7 @@
     .youtube .board_wrap .title_slide .slide_item{padding-bottom:39px;}
 }
 
-.yc_media #sub_banner .sub_visual .visual_img{background-image:url(../img_new/media/bg.jpg);}
+.yc_media #sub_banner .sub_visual .visual_img{background-image:url(../img/sub-bg4.png);}
 
 .yc_media.instagram .link_list{display:flex;justify-content:center;align-items:flex-start;line-height:1;text-align:center;}
 .yc_media.instagram .link_list li{width:180px;margin:0 30px;}

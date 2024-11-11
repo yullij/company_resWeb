@@ -55,7 +55,7 @@
 .board_wrap .pagenation .page_navi a.prev_btn5:before,
 .board_wrap .pagenation .page_navi a.next_btn5:before{background-position-y:-15px;}
 .board_wrap .pagenation .page_track{margin:0 20px;}
-.board_wrap .pagenation .page_track a{font-size:18px;color:#adadad;position:relative;text-align:center;min-width:20px;padding:0 5px;margin-right:10px;}
+.board_wrap .pagenation .page_track a{font-size:18px;color:#adadad;position:relative;text-align:center;min-width:20px;padding:0 5px;}
 .board_wrap .pagenation .page_track a:last-child{margin-right:0;}
 .board_wrap .pagenation .page_track a:after{content:"";position:absolute;bottom:-2px;left:0;width:100%;height:2px;background:#adadad;}
 .board_wrap .pagenation .page_track a:hover:after{display:block;}
