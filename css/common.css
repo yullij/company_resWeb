@@ -59,7 +59,7 @@ h3, .h3{font-size:36px;font-weight:600;line-height:80px;}
 #header{position:fixed;top:0;left:50%;z-index:51;width:100%;height:84px;background-color:transparent;transform:translateX(-50%);transition:top 250ms ease-in-out;}
 #header:before{display:block;position:absolute;top:84px;left:calc(50% - 50vw);width:100vw;height:1px;background-color:transparent;background-color:rgba(34, 34, 34, 0.1);content:"";}
 #header .logo_box{position:relative;z-index:20;width:160px;color:transparent;font-size:0;line-height:0;}
-#header .logo_box .logo{position:absolute;top:20px;left:0;width:160px;height:64px;background:url('../img/logo.png') no-repeat center / contain;}
+#header .logo_box .logo{position:absolute;top:20px;left:0;width:160px;height:40px;background:url('../img/logo.png') no-repeat center / contain;}
 #header .logo_box .logo_inner_type{width:160px;height:64px;background:url('../img_new/common/yuhancare_logo_all_white.png') no-repeat center / contain;}
 .menu_open, .gnb_curtain, .gnb_top, .header_copyright{display:none;}
 

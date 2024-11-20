@@ -138,7 +138,7 @@
 .main .sec02 .banner_link{width: 210px;height: 40px;border-radius: 20px;border: 2px solid white;font-size: 18px;font-weight: 700;display: flex;align-items: center;justify-content: center;}
 .main .sec02 .banner_link:after{content: "";display: inline-block;width: 24px;vertical-align: top;background: url(../img/arrow-right-s-wh\ \(1\).png) no-repeat center / contain;height: 24px;margin-left: 12px;}
 @media(min-width:1001px) {
-    .main .sec02 .mask_text:before{content: "HISSEN";display: block;position: absolute;width: 100%;height: 100%;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-background-clip: text;font-size: 190px;font-weight: 900;color: transparent;white-space: nowrap;}
+    .main .sec02 .mask_text:before{content: "hbs";display: block;position: absolute;width: 100%;height: 100%;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-background-clip: text;font-size: 190px;font-weight: 900;color: transparent;white-space: nowrap;}
     .main .sec02 .mask_text.type1:before{background-image: url(../img/brand1.png);}
     .main .sec02 .mask_text.type2:before{background-image: url(../img/brand2.png);}
     .main .sec02 .mask_text.type3:before{background-image: url(../img/brand3.png);}
