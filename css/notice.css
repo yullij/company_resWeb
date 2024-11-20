@@ -41,9 +41,9 @@
 #main .sec06 .slide_bx .slick-dots li{ display:inline-block; vertical-align:top; margin:0 5px;}
 #main .sec06 .slide_bx .slick-dots li button{ position:relative; padding:0; width:20px; height:20px; background:transparent; text-indent:-9999px; }
 #main .sec06 .slide_bx .slick-dots li button:before{ content:''; position:absolute; left:50%; top:50%; margin-left:-4px; margin-top:-4px; width:8px; height:8px; background:#ccc; border-radius:50%; }
-#main .sec06 .slide_bx .slick-dots li button:after{ content:''; position:absolute; left:50%; top:50%; width:0; height:0; opacity:0; border:1px solid #00c7a9; background:#fff; border-radius:50%; box-sizing:border-box; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; transition:all 0.2s; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); }
+#main .sec06 .slide_bx .slick-dots li button:after{ content:''; position:absolute; left:50%; top:50%; width:0; height:0; opacity:0; border:1px solid #0060A9; background:#fff; border-radius:50%; box-sizing:border-box; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; transition:all 0.2s; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); }
 #main .sec06 .slide_bx .slick-dots li.slick-active button:before{ opacity:0; }
-#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:20px; height:20px; opacity:1; border:4px solid #00c7a9; }
+#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:20px; height:20px; opacity:1; border:4px solid #0060A9; }
 
 #main .sec06 .slide_bx .slick-arrow{ position:absolute; top:40%; margin-top:-10px; width:12px; height:19px; background:url('../img/sec06_ar.png') no-repeat center; text-indent:-9999px; }
 #main .sec06 .slide_bx .slick-arrow:hover{ background:url('../img/sec06_ar_hover.png') no-repeat center; }
@@ -54,7 +54,7 @@
 #main .sec06 .slide_bx .slick-dots li{ margin:0 3px;}
 #main .sec06 .slide_bx .slick-dots li button{ width:15px; height:15px; }
 #main .sec06 .slide_bx .slick-dots li button:before{ margin-left:-3px; margin-top:-3px; width:6px; height:6px;  }
-#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:15px; height:15px; border:3px solid #00c7a9; }
+#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:15px; height:15px; border:3px solid #0060A9; }
 
 #main .sec06 .slide_bx .slick-arrow{ display:none; }
 #main .sec06 .main_btn{ margin-top:32px; text-align:center; }
@@ -73,7 +73,7 @@
 @media all and (min-width:1025px){
     
     #main .sec06 .slide_bx .slide a:hover:after{ width:100%; }
-    #main .sec06 .slide_bx .slide a:hover > strong{ color:#00c7a9; }
+    #main .sec06 .slide_bx .slide a:hover > strong{ color:#0060A9; }
     
 }
 /* 태블릿&모바일 공통*/
@@ -112,7 +112,7 @@
 	#main .sec06 .slide_bx .slick-dots li{ margin:0 3px;}
 	#main .sec06 .slide_bx .slick-dots li button{ width:15px; height:15px; }
 	#main .sec06 .slide_bx .slick-dots li button:before{ margin-left:-3px; margin-top:-3px; width:6px; height:6px;  }
-	#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:15px; height:15px; border:3px solid #00c7a9; }
+	#main .sec06 .slide_bx .slick-dots li.slick-active button:after{ width:15px; height:15px; border:3px solid #0060A9; }
 
 	#main .sec06 .slide_bx .slick-arrow{ display:none; }
 	#main .sec06 .main_btn{ margin-top:32px; text-align:center; }
