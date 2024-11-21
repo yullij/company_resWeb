@@ -132,7 +132,7 @@ $(function() {
     $('.sec02 .tab_box .brand_tab').on('click',function() {
         let thisIndex = Number($(this).index()) + 1;
         $(this).addClass('active').siblings().removeClass('active');
-        $('.sec02 .mask_text').removeClass('type1 type2 type3 type4 type5').addClass('type'+thisIndex).find('.zoom_circle'+thisIndex).addClass('on').siblings().removeClass('on');
+        $('.sec02 .mask_text').removeClass('type1 type2 type3 type4 type5 type6 type7 type8').addClass('type'+thisIndex).find('.zoom_circle'+thisIndex).addClass('on').siblings().removeClass('on');
         $('.sec02 .matchbox .matchtext').eq(thisIndex - 1).addClass('active').siblings().removeClass('active');
 
         let route = '';
